@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HomePage</title>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <style>
+     @font-face{
+        font-family: overallFont;
+        src:url(fonts/static/SansitaSwashed-SemiBold.ttf);
+        }
+     body{
+            font-family: overallFont !important;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Navbar for large screen starts here -->
+        <div class="navbar navbar-expand-lg sticky-top">
+            <a href="#" class="navbar-brand">Logo&CompanyName</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#a">
+                <i class="fa fa-bars"></i>
+			</button>
+         <div class="collapse navbar-collapse" id="a">
+         <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <div id="nav-deco" style="display: inline-block;">
+                <i class="fa fa-home"id="nav_icons">&nbsp;<a class="nav-link" style="display: inline-block; font-family: overallFont;">Home</a> </i>
+                </div>
+                </li>
+              <li class="nav-item">
+                <div id="nav-deco" style="display: inline-block;">
+                    <i class="fa fa-file-text-o"id="nav_icons">&nbsp;
+                        <a class="nav-link" style="display: inline-block; font-family: overallFont;">
+                        About
+                        </a>
+                    </i>
+                </div>
+              </li> 
+              <li class="nav-item">
+                <div id="nav-deco" style="display: inline-block;">
+                    <i class="fa fa-leanpub"id="nav_icons">&nbsp;
+                        <a class="nav-link" style="display: inline-block; font-family: overallFont;">
+                        Campaigns
+                       </a></i>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div id="nav-deco" style="display: inline-block;">
+                    <i class="fa fa-address-book"id="nav_icons">&nbsp;
+                        <a class="nav-link" style="display: inline-block; font-family: overallFont;">
+                        Contacts
+                       </a></i>
+                </div>
+              <li class="nav-item dropdown">
+                <div id="nav-deco" style="display: inline-block;">
+                    <i class="fa fa-user"id="nav_icons">&nbsp;
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" style="display: inline-block; font-family: overallFont;">
+                            Login/Register &nbsp;</a>
+                  <div class="dropdown-menu" style="height: auto;">
+                          <a id="dec-drop" class="dropdown-item" style="font-family: overallFont;">Login</a>
+                          <a id="dec-drop" class="dropdown-item" style="font-family: overallFont;">Register</a>
+                  </div>
+                    </i>
+                </div> 
+              </li>
+         </ul> 
+        </div>
+       </div>
+       <!-- Navbar ends here -->
+       <!-- Carousel starts here -->
+       <div class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="hover" id="pic-slides">
+          <ol class="carousel-indicators">
+              <li data-target="#pic-slides" data-slide-to="0" class="active"></li>
+              <li data-target="#pic-slides" data-slide-to="1" ></li>
+              <li data-target="#pic-slides" data-slide-to="2"></li>
+          </ol>
+           <div class="carousel-inner" id="carousel-inner-first">
+            <div class="carousel-item active">
+                <img src="images/image1.png" id="slides_images">
+                <div class="carousel-caption" style="transform: translate(0,-100%);">
+                        <strong><h2> 
+                            <sup>“</sup> 
+                            The Earth is what we all have in common.
+                            <sup>”</sup> <br><br> 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;— &nbsp;Wendell Berry</h2>
+                        </strong>
+                </div>
+           </div>
+               <div class="carousel-item">
+                    <img src="images/image5.png" id="slides_images">
+                    <div class="carousel-caption" style="transform: translate(0,-100%);">
+                        <strong><h2> 
+                            <sup>“</sup> 
+                            The Earth is what we all have in common.
+                            <sup>”</sup> <br><br> 
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;— &nbsp;Wendell Berry</h2>
+                        </strong>
+                   </div>
+               </div>
+            <div class="carousel-item ">
+                <img src="images/nature.jpg" id="slides_images">
+                <div class="carousel-caption" style="transform: translate(0,-100%);">
+                    <strong><h2> 
+                        <sup>“</sup> 
+                        The Earth is what we all have in common.
+                        <sup>”</sup> <br><br> 
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;— &nbsp;Wendell Berry</h2>
+                    </strong>
+                </div>
+            </div>
+           </div>
+           <a class="carousel-control-prev" data-slide="prev" href="#pic-slides">
+               <span class="control-images-prev-first">
+               <span class="carousel-control-prev-icon">&nbsp;</span>
+              </span>
+           </a>
+           <a class="carousel-control-next" data-slide="next" href="#pic-slides">
+            <span class="control-images-next-first">
+            <span class="carousel-control-next-icon"></span>
+            </span>
+        </a>
+       </div>
+       <!-- Carousel ends here -->
+       <!-- About card starts here -->
+       <br><br>
+       <div id="about">
+       <div class="card wow slideInLeft" style="padding:40px;" id="shadow">
+           <h3 class="card-title"> &nbsp;About Nature</h3>
+           <div id="header-line"></div>
+           <div class="card-body">
+               <p align="justify">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               Error reprehenderit minus impedit incidunt perspiciatis minima 
+               quo nesciunt. 
+               Commodi distinctio mollitia totam? Eveniet, excepturi iste 
+               impedit quod temporibus sapiente fugit tempore.
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type
+                 specimen book. It has survived not only five centuries, but also the leap into 
+                 electronic typesetting, remaining essentially unchanged. It was popularised in
+                 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+        </div>
+       </div>
+       <br><br>
+       <!-- About card ends here -->
+
+       <!-- Gallery cards starts here -->
+    <div class="carousel slide wow slideInRight" data-ride="carousel" data-interval="60000" data-pause="hover" id="gallery-slides">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="card mt-5">
+                        <div class="row">
+                          <div class="col-md-3" id="gallerySpace">
+                              <img src="images/image4.png" style="height: 200px; width: 100%;">
+                          </div>
+                          <div class="col-md-3" id="gallerySpace">
+                              <img src="images/image5.png" style="height: 200px;  width: 100%;">
+                          </div>
+                          <div class="col-md-3" id="gallerySpace">
+                              <img src="images/image6.png" style="height: 200px;  width: 100%;">
+                          </div>
+                          <div class="col-md-3" id="gallerySpace">
+                              <img src="images/un1.png" style="height: 200px;  width: 100%;">
+                          </div>
+                      </div>
+                     </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mt-5">
+                  <div class="row">
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/image7.png" style="height: 200px; width: 100%;">
+                    </div>
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/image8.png" style="height: 200px;  width: 100%;">
+                    </div>
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/image9.png" style="height: 200px;  width: 100%;">
+                    </div>
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/nature.jpg" style="height: 200px;  width: 100%;">
+                    </div>
+                </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card mt-5">
+                    <div class="row">
+                        <div class="col-md-3" id="gallerySpace">
+                        <img src="images/nature.jpg" style="height: 200px; width: 100%;">
+                    </div>
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/image8.png" style="height: 200px;  width: 100%;">
+                    </div>
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/image9.png" style="height: 200px;  width: 100%;">
+                    </div>
+                    <div class="col-md-3" id="gallerySpace">
+                        <img src="images/image6.png" style="height: 200px;  width: 100%;">
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <a class="carousel-control-prev" data-slide="prev" href="#gallery-slides">
+                    <span class="control-images-prev">
+                    <span id="previousGallery"class="carousel-control-prev-icon">&nbsp;</span>
+                </span>
+                </a>
+                <a class="carousel-control-next" data-slide="next" href="#gallery-slides">
+                <span class="control-images-next">
+                <span id="nextGallery" class="carousel-control-next-icon"></span>
+                </span>
+            </a>
+        </div>   <!--Carousel item div ends here-->
+            </div>
+       <!-- Gallery cards ends here -->
+    <br><br>
+       <!-- Campaign starts here -->
+       <div class="card" style="padding:40px;" id="shadow">
+           <h3 class="card-title"> &nbsp;Campaigns</h3>
+           <div id="header-line"></div>
+           <div class="card-body">
+               <div class="row wow slideInLeft">
+              <div class="col-md-4"><img src="images/camp1.png" style="height:250px;  width: 100%;"></div>
+              <div class="col-md-7">
+              <p align="justify">
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               Error reprehenderit minus impedit incidunt perspiciatis minima 
+               quo nesciunt. 
+               Commodi distinctio mollitia totam? Eveniet, excepturi iste 
+               impedit quod temporibus sapiente fugit tempore.
+               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                when an unknown printer took a galley of type and scrambled it to make a type
+                 specimen book. It has survived not only five centuries, but also the leap into 
+                 electronic typesetting, remaining essentially unchanged. It was popularised in
+                 the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                 and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+               </div>
+             </div>
+             <br>
+             <div class="row wow slideInRight">
+               <div class="col-md-9">
+                <p align="justify">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                  Error reprehenderit minus impedit incidunt perspiciatis minima 
+                  quo nesciunt. 
+                  Commodi distinctio mollitia totam? Eveniet, excepturi iste 
+                  impedit quod temporibus sapiente fugit tempore.
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                  when an unknown printer took a galley of type and scrambled it to make a type
+                   specimen book. It has survived not only five centuries, but also the leap into 
+                   electronic typesetting, remaining essentially unchanged. It was popularised in
+                   the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                   and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p></div>
+                  <div class="col-md-3"><img src="images/camp2.png" style="height:auto;  width:100%;"></div>
+                 
+               </div>
+            </div>
+       </div>
+       <!-- Campaign ends here -->
+       <br><br>
+       <!-- Footer starts here -->
+       <footer  style="padding:30px;">
+       
+       <div class="row">
+       
+         <div class="col-md-5">
+            <h4>Contact details</h4> <br>
+              +91233212321 &#124; +9123289232 | +9821123112<br>
+              Address &nbsp;&nbsp;&nbsp; : &nbsp;Acharya Vihar ,<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Bhubaneswar ,<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Orissa <br>
+              Pin Code &nbsp;&nbsp;&nbsp;:&nbsp; 751013 <br>
+              Email ID &nbsp;&nbsp;&nbsp;: &nbsp;abc@gmail.com
+         </div>
+         <div class="col-md-7">
+             <h4>Feedback Form</h4><br>
+             <form class="form-horizontal">
+                <div class="form-group row">
+                    <label class="form-label col-md-3"> Name &nbsp; : &nbsp;</label>
+                    <input class="form-control col-md-9" placeholder="Enter your Name">
+                </div>
+                <div class="form-group row">
+                    <label class="form-label col-md-3"> Email ID &nbsp; : &nbsp;</label>
+                    <input class="form-control col-md-9" placeholder="Enter your Email ID">
+                </div>
+                <div class="form-group row">
+                    <label class="form-label col-md-3"> Feedback &nbsp; : &nbsp;</label>
+                    <textarea class="form-control col-md-9" placeholder="Enter your valuable Feedback"></textarea>
+                </div>
+                <div class="form-group row">
+                    <button id="feedbackBtn" class="offset-1 btn btn-default col-md-3" style="width: 100%;">Send</button>
+                </div>
+             </form>
+         </div>
+       </div>
+       <!-- Footer ends here -->
+       </footer>
+    </div>
+</body>
+</html>
